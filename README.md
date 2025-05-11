@@ -42,8 +42,9 @@ DocuQuery is a Streamlit-based document assistant that allows users to upload PD
    streamlit run main.py
 
 7. ** Project Structure**
-├── main.py             # Streamlit app
-├── rag_pipeline.py     # RAG pipeline logic (load, embed, retrieve, summarize)
-├── .env                # Environment variable for API key (DO NOT SHARE)
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
+   ```bash
+   ├── main.py             # Streamlit app
+   ├── rag_pipeline.py     # RAG pipeline logic (load, embed, retrieve, summarize)
+   ├── .env                # Environment variable for API key (DO NOT SHARE)
+   ├── requirements.txt    # Python dependencies
+   └── README.md           # Project documentation
